@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou João Lucas</p>
-        <h1>Eu estudo Programação</h1>
-        <p>Estudo no Ensino Médio. Estou apredendo Alura. ja sei usar Scratch e Jp5s. Veja os projetos
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o João Lucas_</p>
+        <h1>Eu sou estudante do ensino medio</h1>
+        <p>Estudo pensamento computacional, etudo sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
             que já desenvolvi!</p>
         <p>Minhas habilidades</p>
         <div>
@@ -24,22 +26,131 @@
             <p class="badge bg-secondary">Scratch</p>
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Meu livro: Sapiens (Edição em quadrinhos): O nascimento da humanidade</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta meu livro 
+                            favoritos, incluindo informações sobre os autores, datas de publicação e links para compra
+                            na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Neymar: A vida do Neymar</h5>
+                        <p class="card-text">Este projeto é um documentario sobre a vida do neymar</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo: A aventura do aviãozinho vermelho
+                        </h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                          um aviãozinho vermelho que sai voado pelo o mundo
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>>O primeiro dos quatro volumes em quadrinhos do fenômeno mundial Sapiens.
+Nesta versão graphic novel de Sapiens: Uma breve história da humanidade, que vendeu mais de 16 milhões de exemplares em sessenta idiomas mundo afora, você é convidado a viajar pelo lado selvagem da história, acompanhado por personagens como Bill Pré-Histórico, dra. Ficção e detetive Lopez, e tendo o historiador e filósofo Yuval Noah Harari como guia. Com roteiro do belga David Vandermeulen e arte do francês Daniel Casanave, o formato HQ dá uma nova perspectiva ao passado e às nossas origens. A evolução humana é repensada como um reality show. O primeiro encontro entre os sapiens e os neandertais se dá através das obras-primas da arte moderna. A extinção dos mamutes e dos tigres-dentes-de-sabre é recontada como um filme policial.
+Esta série em quadrinhos é uma versão radical da história da humanidade, recheada de inteligência, humor e personagens pitorescos, e pensada para cativar quem gostaria de saber, entre outros assuntos, como um reles primata se tornou governante do planeta Terra, capaz de dividir átomos, viajar à Lua e manipular o código genético da vida.<p>
+         <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Neymar: A vida do Neymar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Neymar da Silva Santos Júnior, mais conhecido como Neymar, é um futebolista brasileiro de grande destaque, considerado um dos maiores de todos os tempos. Nasceu em Mogi das Cruzes, São Paulo, em 5 de fevereiro de 1992. Sua carreira começou no Santos Futebol Clube, onde se revelou como uma promessa, e desde então tem se destacado por suas habilidades e conquistas<p>
+
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Explorando o Universo: A aventura do aviãozinho vermelho</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto Scratch cria uma experiência interativa educativa sobre
+                          um aviãozinho vermelho que sai voado pelo o mundo</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
